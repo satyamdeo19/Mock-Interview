@@ -103,3 +103,23 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# -------------------------------------
+#  Training / Output / Derived CSV Files
+# -------------------------------------
+
+# Ignore processed features
+Training/processed_features/
+*/processed_features/
+processed_features/
+**/processed_features/*
+
+# Ignore feedback results
+feedback_results/
+*/feedback_results/
+**/feedback_results/*
+
+# Ignore generated CSV files
+*.csv
+
+# But allow raw dataset if needed
+!Training/raw_dataset/*.csv
