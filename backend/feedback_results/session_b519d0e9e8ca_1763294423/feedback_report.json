@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "candidate_name": "Candidate",
+    "position": "Position",
+    "interview_date": "2025-11-16",
+    "report_generated": "2025-11-16T17:32:37.842864",
+    "session_id": "session_b519d0e9e8ca_1763294423"
+  },
+  "executive_summary": {
+    "overall_score": 40.94,
+    "grade": "C-",
+    "performance_category": "Below Average",
+    "assessment": "Performance shows potential but requires significant improvement in key areas.",
+    "key_highlights": [
+      "Excellent consistency (0.98)",
+      "Excellent emotional state (0.57)"
+    ],
+    "key_concerns": [
+      "Response Depth needs attention (0.10)",
+      "Cognitive Complexity needs attention (0.24)"
+    ],
+    "recommendation": "Develop Skills - Candidate would benefit from interview coaching before reapplying"
+  },
+  "dimension_analysis": [
+    {
+      "dimension": "Confidence",
+      "score": 0.42,
+      "percentile": 29.2,
+      "grade": "C",
+      "benchmark": 0.72,
+      "vs_benchmark": -0.3,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Fluency",
+      "score": 0.481,
+      "percentile": 34.3,
+      "grade": "C",
+      "benchmark": 0.7,
+      "vs_benchmark": -0.219,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Engagement",
+      "score": 0.276,
+      "percentile": 18.4,
+      "grade": "C",
+      "benchmark": 0.75,
+      "vs_benchmark": -0.474,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Professionalism",
+      "score": 0.325,
+      "percentile": 22.2,
+      "grade": "C",
+      "benchmark": 0.73,
+      "vs_benchmark": -0.405,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Emotional State",
+      "score": 0.572,
+      "percentile": 42.0,
+      "grade": "C",
+      "benchmark": 0.68,
+      "vs_benchmark": -0.108,
+      "interpretation": "Below Average - Room for improvement"
+    },
+    {
+      "dimension": "Calmness",
+      "score": 0.407,
+      "percentile": 29.1,
+      "grade": "C",
+      "benchmark": 0.7,
+      "vs_benchmark": -0.293,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Articulation Quality",
+      "score": 0.525,
+      "percentile": 36.5,
+      "grade": "C",
+      "benchmark": 0.72,
+      "vs_benchmark": -0.195,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Response Depth",
+      "score": 0.102,
+      "percentile": 7.9,
+      "grade": "C",
+      "benchmark": 0.65,
+      "vs_benchmark": -0.548,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Cognitive Complexity",
+      "score": 0.244,
+      "percentile": 20.4,
+      "grade": "C",
+      "benchmark": 0.6,
+      "vs_benchmark": -0.356,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    {
+      "dimension": "Consistency",
+      "score": 0.981,
+      "percentile": 96.1,
+      "grade": "A+",
+      "benchmark": 0.75,
+      "vs_benchmark": 0.231,
+      "interpretation": "Excellent - Well above average"
+    }
+  ],
+  "strengths": {
+    "overview": "You demonstrated strong performance in 3 key areas.",
+    "top_strengths": [
+      {
+        "dimension": "Consistency",
+        "score": 0.981,
+        "percentile": 96.1,
+        "insight": "Maintains steady performance throughout interview (score: 0.98)"
+      },
+      {
+        "dimension": "Emotional State",
+        "score": 0.572,
+        "percentile": 42.0,
+        "insight": "Positive and balanced emotional tone (score: 0.57)"
+      },
+      {
+        "dimension": "Articulation Quality",
+        "score": 0.525,
+        "percentile": 36.5,
+        "insight": "Clear and well-articulated responses (score: 0.53)"
+      }
+    ],
+    "advice": "Continue to leverage these strengths while addressing development areas."
+  },
+  "improvement_areas": {
+    "overview": "There are 3 areas where focused improvement will enhance your interview performance.",
+    "improvement_areas": [
+      {
+        "dimension": "Response Depth",
+        "score": 0.102,
+        "benchmark": 0.65,
+        "gap": -0.548,
+        "recommendation": "Use the STAR method for behavioral questions. Prepare more detailed examples."
+      },
+      {
+        "dimension": "Cognitive Complexity",
+        "score": 0.244,
+        "benchmark": 0.6,
+        "gap": -0.356,
+        "recommendation": "Expand your vocabulary. Practice explaining complex concepts simply."
+      },
+      {
+        "dimension": "Engagement",
+        "score": 0.276,
+        "benchmark": 0.75,
+        "gap": -0.474,
+        "recommendation": "Use more facial expressions and gestures. Vary your vocal tone for emphasis."
+      }
+    ],
+    "priority": "Focus first on areas with the largest gaps from benchmark."
+  },
+  "detailed_insights": {
+    "communication": {
+      "fluency_note": "Based on speech patterns and filler word analysis",
+      "articulation_note": "Based on audio clarity and vocal characteristics"
+    },
+    "non_verbal": {
+      "body_language": "Based on head pose, posture, and movement stability",
+      "facial_expressions": "Based on facial feature animation and expressiveness"
+    },
+    "emotional": {
+      "overall_tone": "Based on sentiment analysis and vocal tone",
+      "stress_indicators": "Based on nervousness markers and micro-movements"
+    }
+  },
+  "recommendations": [
+    {
+      "area": "Response Depth",
+      "priority": "High",
+      "recommendation": "Use the STAR method for behavioral questions. Prepare more detailed examples.",
+      "expected_impact": "Medium"
+    },
+    {
+      "area": "Cognitive Complexity",
+      "priority": "High",
+      "recommendation": "Expand your vocabulary. Practice explaining complex concepts simply.",
+      "expected_impact": "Medium"
+    },
+    {
+      "area": "Engagement",
+      "priority": "High",
+      "recommendation": "Use more facial expressions and gestures. Vary your vocal tone for emphasis.",
+      "expected_impact": "Medium"
+    }
+  ],
+  "action_plan": {
+    "this_week": [
+      "Review this feedback report and identify top 2 focus areas",
+      "Record yourself answering 3-5 common interview questions"
+    ],
+    "next_30_days": [
+      "Focus on improving: Response Depth, Cognitive Complexity",
+      "Do 2-3 mock interviews with feedback"
+    ],
+    "next_60_days": [
+      "Join a speaking or interview practice group",
+      "Focus on response structure using the STAR method"
+    ],
+    "next_90_days": [
+      "Reassess progress and do a final practice round",
+      "Prepare for a full mock interview session"
+    ]
+  },
+  "benchmarking": {
+    "your_score": 40.94,
+    "industry_average": 70.0,
+    "difference": -29.1
+  },
+  "next_steps": {
+    "status": "In Development",
+    "message": "Focus on fundamentals and repeat practice interviews."
+  }
+}

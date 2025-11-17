@@ -1,0 +1,145 @@
+{
+  "method": "weighted_scoring",
+  "timestamp": "2025-11-14T22:44:11.707095",
+  "role": null,
+  "experience_level": "mid",
+  "dimension_scores": {
+    "confidence": {
+      "score": 0.472,
+      "weight": 0.15,
+      "contribution": 7.08,
+      "benchmark": 0.72,
+      "difference": -0.248,
+      "percentile": 32.8,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "fluency": {
+      "score": 0.464,
+      "weight": 0.15,
+      "contribution": 6.96,
+      "benchmark": 0.7,
+      "difference": -0.236,
+      "percentile": 33.1,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "engagement": {
+      "score": 0.284,
+      "weight": 0.15,
+      "contribution": 4.25,
+      "benchmark": 0.75,
+      "difference": -0.466,
+      "percentile": 18.9,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "professionalism": {
+      "score": 0.295,
+      "weight": 0.15,
+      "contribution": 4.42,
+      "benchmark": 0.73,
+      "difference": -0.435,
+      "percentile": 20.2,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "emotional_state": {
+      "score": 0.54,
+      "weight": 0.1,
+      "contribution": 5.4,
+      "benchmark": 0.68,
+      "difference": -0.14,
+      "percentile": 39.7,
+      "interpretation": "Below Average - Room for improvement"
+    },
+    "calmness": {
+      "score": 0.39,
+      "weight": 0.1,
+      "contribution": 3.9,
+      "benchmark": 0.7,
+      "difference": -0.31,
+      "percentile": 27.9,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "articulation_quality": {
+      "score": 0.492,
+      "weight": 0.08,
+      "contribution": 3.93,
+      "benchmark": 0.72,
+      "difference": -0.228,
+      "percentile": 34.2,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "response_depth": {
+      "score": 0.103,
+      "weight": 0.05,
+      "contribution": 0.51,
+      "benchmark": 0.65,
+      "difference": -0.547,
+      "percentile": 7.9,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "cognitive_complexity": {
+      "score": 0.202,
+      "weight": 0.04,
+      "contribution": 0.81,
+      "benchmark": 0.6,
+      "difference": -0.398,
+      "percentile": 16.9,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "consistency": {
+      "score": 0.957,
+      "weight": 0.03,
+      "contribution": 2.87,
+      "benchmark": 0.75,
+      "difference": 0.207,
+      "percentile": 91.4,
+      "interpretation": "Excellent - Well above average"
+    }
+  },
+  "final_score": 40.14,
+  "overall_grade": "C-",
+  "performance_category": "Below Average",
+  "top_strengths": [
+    {
+      "dimension": "Consistency",
+      "score": 0.957,
+      "percentile": 91.4,
+      "insight": "Maintains steady performance throughout interview (score: 0.96)"
+    },
+    {
+      "dimension": "Emotional State",
+      "score": 0.54,
+      "percentile": 39.7,
+      "insight": "Positive and balanced emotional tone (score: 0.54)"
+    },
+    {
+      "dimension": "Articulation Quality",
+      "score": 0.492,
+      "percentile": 34.2,
+      "insight": "Clear and well-articulated responses (score: 0.49)"
+    }
+  ],
+  "improvement_areas": [
+    {
+      "dimension": "Response Depth",
+      "score": 0.103,
+      "benchmark": 0.65,
+      "gap": -0.547,
+      "recommendation": "Use the STAR method for behavioral questions. Prepare more detailed examples."
+    },
+    {
+      "dimension": "Cognitive Complexity",
+      "score": 0.202,
+      "benchmark": 0.6,
+      "gap": -0.398,
+      "recommendation": "Expand your vocabulary. Practice explaining complex concepts simply."
+    },
+    {
+      "dimension": "Engagement",
+      "score": 0.284,
+      "benchmark": 0.75,
+      "gap": -0.466,
+      "recommendation": "Use more facial expressions and gestures. Vary your vocal tone for emphasis."
+    }
+  ],
+  "summary": "Overall score of 40.1/100. 1 dimension showing excellence. 9 dimensions with room for improvement."
+}

@@ -1,0 +1,66 @@
+{
+  "dimension_weights": {
+    "confidence": 0.15,
+    "fluency": 0.15,
+    "engagement": 0.15,
+    "professionalism": 0.15,
+    "emotional_state": 0.1,
+    "calmness": 0.1,
+    "articulation_quality": 0.08,
+    "response_depth": 0.05,
+    "cognitive_complexity": 0.04,
+    "consistency": 0.03
+  },
+  "modality_weights": {
+    "confidence": {
+      "text": 0.25,
+      "audio": 0.35,
+      "video": 0.4
+    },
+    "fluency": {
+      "text": 0.4,
+      "audio": 0.35,
+      "video": 0.25
+    },
+    "engagement": {
+      "text": 0.25,
+      "audio": 0.3,
+      "video": 0.45
+    },
+    "professionalism": {
+      "text": 0.3,
+      "audio": 0.3,
+      "video": 0.4
+    },
+    "emotional_state": {
+      "text": 0.35,
+      "audio": 0.35,
+      "video": 0.3
+    },
+    "calmness": {
+      "text": 0.25,
+      "audio": 0.35,
+      "video": 0.4
+    },
+    "articulation_quality": {
+      "text": 0.35,
+      "audio": 0.5,
+      "video": 0.15
+    },
+    "response_depth": {
+      "text": 0.6,
+      "audio": 0.25,
+      "video": 0.15
+    },
+    "cognitive_complexity": {
+      "text": 0.5,
+      "audio": 0.35,
+      "video": 0.15
+    },
+    "consistency": {
+      "text": 0.2,
+      "audio": 0.1,
+      "video": 0.7
+    }
+  }
+}

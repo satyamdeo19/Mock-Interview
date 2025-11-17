@@ -1,0 +1,145 @@
+{
+  "method": "weighted_scoring",
+  "timestamp": "2025-11-10T14:09:22.894203",
+  "role": null,
+  "experience_level": "mid",
+  "dimension_scores": {
+    "confidence": {
+      "score": 0.737,
+      "weight": 0.15,
+      "contribution": 11.05,
+      "benchmark": 0.72,
+      "difference": 0.017,
+      "percentile": 52.9,
+      "interpretation": "Good - At or slightly above average"
+    },
+    "fluency": {
+      "score": 0.512,
+      "weight": 0.15,
+      "contribution": 7.69,
+      "benchmark": 0.7,
+      "difference": -0.188,
+      "percentile": 36.6,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "engagement": {
+      "score": 0.54,
+      "weight": 0.15,
+      "contribution": 8.1,
+      "benchmark": 0.75,
+      "difference": -0.21,
+      "percentile": 36.0,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "professionalism": {
+      "score": 0.562,
+      "weight": 0.15,
+      "contribution": 8.43,
+      "benchmark": 0.73,
+      "difference": -0.168,
+      "percentile": 38.5,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "emotional_state": {
+      "score": 0.568,
+      "weight": 0.1,
+      "contribution": 5.68,
+      "benchmark": 0.68,
+      "difference": -0.112,
+      "percentile": 41.7,
+      "interpretation": "Below Average - Room for improvement"
+    },
+    "calmness": {
+      "score": 0.467,
+      "weight": 0.1,
+      "contribution": 4.67,
+      "benchmark": 0.7,
+      "difference": -0.233,
+      "percentile": 33.4,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "articulation_quality": {
+      "score": 0.501,
+      "weight": 0.08,
+      "contribution": 4.01,
+      "benchmark": 0.72,
+      "difference": -0.219,
+      "percentile": 34.8,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "response_depth": {
+      "score": 0.192,
+      "weight": 0.05,
+      "contribution": 0.96,
+      "benchmark": 0.65,
+      "difference": -0.459,
+      "percentile": 14.7,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "cognitive_complexity": {
+      "score": 0.327,
+      "weight": 0.04,
+      "contribution": 1.31,
+      "benchmark": 0.6,
+      "difference": -0.273,
+      "percentile": 27.2,
+      "interpretation": "Needs Improvement - Significant gap"
+    },
+    "consistency": {
+      "score": 0.785,
+      "weight": 0.03,
+      "contribution": 2.35,
+      "benchmark": 0.75,
+      "difference": 0.035,
+      "percentile": 56.9,
+      "interpretation": "Good - At or slightly above average"
+    }
+  },
+  "final_score": 54.23,
+  "overall_grade": "C-",
+  "performance_category": "Below Average",
+  "top_strengths": [
+    {
+      "dimension": "Consistency",
+      "score": 0.785,
+      "percentile": 56.9,
+      "insight": "Maintains steady performance throughout interview (score: 0.79)"
+    },
+    {
+      "dimension": "Confidence",
+      "score": 0.737,
+      "percentile": 52.9,
+      "insight": "Strong self-assurance and steady presence (score: 0.74)"
+    },
+    {
+      "dimension": "Emotional State",
+      "score": 0.568,
+      "percentile": 41.7,
+      "insight": "Positive and balanced emotional tone (score: 0.57)"
+    }
+  ],
+  "improvement_areas": [
+    {
+      "dimension": "Response Depth",
+      "score": 0.192,
+      "benchmark": 0.65,
+      "gap": -0.459,
+      "recommendation": "Use the STAR method for behavioral questions. Prepare more detailed examples."
+    },
+    {
+      "dimension": "Cognitive Complexity",
+      "score": 0.327,
+      "benchmark": 0.6,
+      "gap": -0.273,
+      "recommendation": "Expand your vocabulary. Practice explaining complex concepts simply."
+    },
+    {
+      "dimension": "Calmness",
+      "score": 0.467,
+      "benchmark": 0.7,
+      "gap": -0.233,
+      "recommendation": "Try breathing exercises before interviews. Practice mindfulness to reduce nervousness."
+    }
+  ],
+  "summary": "Overall score of 54.2/100. 2 dimensions performing well. 8 dimensions with room for improvement."
+}

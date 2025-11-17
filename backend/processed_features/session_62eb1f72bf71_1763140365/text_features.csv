@@ -1,0 +1,6 @@
+question_number,text_word_count,text_sentence_count,text_char_count,text_avg_word_length,text_avg_sentence_length,text_stopword_ratio,text_filler_ratio,text_punctuation_ratio,text_uppercase_ratio,text_question_marks,text_exclamation_marks,text_flesch_reading_ease,text_flesch_kincaid_grade,emotion_sentiment_positive,emotion_sentiment_negative,emotion_sentiment_neutral,emotion_sentiment_polarity,emotion_confidence_score,emotion_tentative_score,emotion_analytical_score,emotion_joy_score,emotion_sadness_score,emotion_fear_score,emotion_anger_score,emotion_surprise_score,meta_total_questions,meta_avg_answer_length,meta_answer_length_std,meta_avg_filler_ratio,meta_avg_sentiment,meta_confidence_trend
+1,7,1,31,3.29,7.0,0.286,0.0,0.0,0.0,0,0,115.13,-1.06,0.277,0.0,0.723,0.318,1.0,0.0,0.0,0.0,0,0.0,0.0,0,5,6.6,0.55,0.033,0.254,0.0
+2,6,1,27,3.33,6.0,0.333,0.0,0.0,0.0,0,0,116.15,-1.45,0.315,0.0,0.685,0.318,1.0,0.0,0.0,0.015,0,0.0,0.0,0,5,6.6,0.55,0.033,0.254,0.0
+3,6,1,35,5.0,6.0,0.333,0.167,0.0,0.029,0,0,73.85,4.45,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,5,6.6,0.55,0.033,0.254,0.0
+4,7,1,36,4.0,7.0,0.286,0.0,0.0,0.0,0,0,103.04,0.63,0.277,0.0,0.723,0.318,1.0,0.0,0.0,0.0,0,0.0,0.0,0,5,6.6,0.55,0.033,0.254,0.0
+5,7,1,36,4.0,7.0,0.286,0.0,0.0,0.0,0,0,103.04,0.63,0.277,0.0,0.723,0.318,1.0,0.0,0.0,0.0,0,0.0,0.0,0,5,6.6,0.55,0.033,0.254,0.0

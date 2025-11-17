@@ -1,0 +1,123 @@
+{
+  "text_features": {
+    "text_word_count": {
+      "scaling": "minmax",
+      "range": [
+        0,
+        200
+      ],
+      "description": "Number of words in answer"
+    },
+    "text_sentence_count": {
+      "scaling": "minmax",
+      "range": [
+        0,
+        20
+      ],
+      "description": "Number of sentences"
+    },
+    "text_avg_word_length": {
+      "scaling": "minmax",
+      "range": [
+        3,
+        10
+      ],
+      "description": "Average word length"
+    },
+    "text_filler_ratio": {
+      "scaling": "none",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Ratio of filler words (um, uh, like)"
+    },
+    "emotion_confidence_score": {
+      "scaling": "none",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Sentiment-based confidence"
+    }
+  },
+  "audio_features": {
+    "pitch_mean": {
+      "scaling": "minmax",
+      "range": [
+        80,
+        300
+      ],
+      "unit": "Hz",
+      "description": "Average fundamental frequency"
+    },
+    "pitch_std": {
+      "scaling": "minmax",
+      "range": [
+        0,
+        50
+      ],
+      "unit": "Hz",
+      "description": "Pitch variation"
+    },
+    "tempo": {
+      "scaling": "minmax",
+      "range": [
+        2,
+        8
+      ],
+      "unit": "syllables/sec",
+      "description": "Speaking rate"
+    },
+    "energy_mean": {
+      "scaling": "minmax",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Average vocal energy"
+    },
+    "pause_fraction": {
+      "scaling": "none",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Fraction of time in silence"
+    }
+  },
+  "video_features": {
+    "confidence_composite_score": {
+      "scaling": "none",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Overall confidence from video"
+    },
+    "engagement_composite_score": {
+      "scaling": "none",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Overall engagement from video"
+    },
+    "professionalism_composite_score": {
+      "scaling": "none",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Overall professionalism from video"
+    },
+    "nervousness_composite_score": {
+      "scaling": "none",
+      "range": [
+        0,
+        1
+      ],
+      "description": "Nervousness indicators (inverted for calmness)"
+    }
+  }
+}
