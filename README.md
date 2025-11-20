@@ -189,7 +189,8 @@ npm run dev
 Frontend will run at: **http://localhost:5173**
 
 ---
-
+### Installation Issues: Use this venv folder
+Link:
 ## 🚦 API Endpoints
 
 ### 🔹 Session Handling
