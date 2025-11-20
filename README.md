@@ -1,28 +1,42 @@
-.
-
 📘 AI Mock Interview System — README
-🚀 A Complete Multimodal AI Interview Evaluation System
+🚀 Multimodal AI Interview Evaluation (Text + Audio + Video)
 
-Text + Audio + Video → Behavioral Scoring → SHAP Explainability → Personalized Feedback
+This project is a complete AI-powered mock interview platform that analyzes video, audio, and text responses to evaluate a candidate across 10 behavioral dimensions such as:
+
+Confidence
+
+Fluency
+
+Engagement
+
+Communication
+
+Professionalism
+
+Cognitive Complexity
+
+Emotional Stability
+
+Body-Language Cues
+
+Voice Features
+
+Overall Delivery
+
+The system extracts 120+ multimodal features, performs feature engineering, fuses features using a weighted scoring model, and generates explainable feedback using SHAP.
 
 🧩 Project Overview
+System Includes:
 
-This project is an AI-powered Mock Interview System that analyzes video, audio, and text responses to evaluate a candidate across 10 behavioral dimensions such as Confidence, Fluency, Engagement, Professionalism, Cognitive Complexity, etc.
+Backend — FastAPI + Python
 
-It extracts over 120 multimodal features, performs feature engineering, fuses modalities using a weighted scoring model, and provides detailed, explainable interview feedback using SHAP.
+Frontend — React.js
 
-The system consists of:
-
-Backend: FastAPI + Python (feature extraction + scoring + model inference)
-
-Frontend: React.js (webcam recording, dashboard, UI)
-
-Machine Learning: RandomForest models trained on multimodal interview datasets
+Machine Learning — RandomForest + Feature Engineering + SHAP
 
 📂 Project Structure
 ____venv
 ├── backend
-│
 │   ├── __pycache__
 │   ├── .env
 │   ├── benchmark_data.json
@@ -34,7 +48,7 @@ ____venv
 │   ├── question_generator.py
 │   ├── resume_parser.py
 │   ├── feature_engineering
-│   │   ├── init.py
+│   │   ├── __init__.py
 │   │   ├── multimodal_fusion.py
 │   │   └── video_aggregator.py
 │   ├── feature_extractors
@@ -73,160 +87,140 @@ ____venv
     └── README
 
 ⚙️ System Requirements
-Backend Requirements
+Backend
 
 Python 3.10+
 
-FFmpeg (mandatory for audio/video processing)
+FFmpeg (required)
 
 pip 23+
 
-Virtual environment (venv)
+Virtual environment
 
-Requirements from requirement.txt
+requirements.txt dependencies
 
-Frontend Requirements
+Frontend
 
 Node.js 18+
 
 npm or yarn
 
 🛠️ Backend Setup
-1️⃣ Navigate to Backend Folder
+1️⃣ Navigate to Backend
 cd backend
 
-2️⃣ Create Virtual Environment
+2️⃣ Create & Activate Virtual Environment
+
+Windows:
+
 python -m venv .venv
-
-Activate venv
-
-Windows
-
 .venv\Scripts\activate
 
 
-Linux/Mac
+Linux/Mac:
 
+python -m venv .venv
 source .venv/bin/activate
 
 3️⃣ Install Dependencies
-
-Make sure you have a requirements.txt file in backend.
-Then run:
-
 pip install -r requirements.txt
 
 4️⃣ Install FFmpeg
 
-This is required for audio extraction and merging video chunks.
-
 Windows:
-Download from: https://www.gyan.dev/ffmpeg/builds/
+Download: https://www.gyan.dev/ffmpeg/builds/
 
-Add FFmpeg bin/ path to your System PATH.
+Add bin/ to PATH.
 
-Linux
+Linux:
 
 sudo apt install ffmpeg
 
 
-Mac
+Mac:
 
 brew install ffmpeg
 
-5️⃣ Create .env File
-
-Inside /backend/.env:
-
+5️⃣ Create .env
 GEMINI_API_KEY=YOUR_KEY_HERE
 
-
-(Or leave blank to use template fallback question generator.)
-
 6️⃣ Run Backend Server
-cd backend
 uvicorn main:app --reload
 
 
-You should see:
+Backend URL:
 
 http://127.0.0.1:8000
-Docs: http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 
 🖥️ Frontend Setup
-1️⃣ Navigate to Frontend Folder
+1️⃣ Navigate
 cd frontend
 
-2️⃣ Install Dependencies
+2️⃣ Install packages
 npm install
 
-3️⃣ Run Frontend
+3️⃣ Start frontend
 npm start
 
 
-Frontend runs on:
+Frontend runs at:
 
 http://localhost:3000
 
 🔄 End-to-End Flow
-1. Upload Resume
+1. Resume Upload
 
-Backend parses skills, projects, experience
+Extracts skills, projects, experience
 
-Question generator (Gemini API or fallback)
+Generates personalized interview questions
 
-2. Start Interview Session
+2. Interview Session
 
-Frontend:
+Webcam video chunks
 
-Captures webcam video in chunks
+Full session audio
 
-Records full-session audio
+Text transcript
 
-Sends Q&A transcript to backend
-
-3. Backend Pipeline
-
-Text feature extraction
+3. Backend Processing
 
 Audio feature extraction
 
-Video feature extraction
+Video landmark feature extraction
 
-Video feature aggregation
+Text NLP analysis
 
-Multimodal feature fusion
+Multimodal aggregation
 
 Weighted scoring
 
-SHAP explainability
+SHAP explanations
 
-Feedback report generation (JSON + visualizations)
+Feedback report generation
 
 4. Frontend Dashboard
 
 Radar charts
 
+Scores by dimension
+
 Strengths & weaknesses
 
-Improvement tips
-
-Score breakdown
+Improvement suggestions
 
 📦 Important Backend Directories
-✔ recordings/sessions/
+recordings/sessions/
 
 Stores:
 
 Video chunks
 
-Full session audio
+Full audio
 
-Transcript CSV/JSON
+Transcripts
 
-✔ processed_features/
-
-Stores:
+processed_features/
 
 audio_features.csv
 
@@ -238,22 +232,20 @@ text_features.csv
 
 final_multimodal_features.csv
 
-✔ feedback_results/
+feedback_results/
 
-Stores:
+Scores
 
-weighted_scores.json
+Feedback report
 
-feedback_report.json
+Visualizations
 
-visualizations (radar charts, bar charts)
+SHAP data
 
-model joblib files
+ML models
 
-🧮 Key ML Components
-✔ Feature Extractors
-
-feature_extractors/
+🧮 Machine Learning Components
+Feature Extractors
 
 audio_extractor.py
 
@@ -261,17 +253,13 @@ video_extractor.py
 
 text_extractor.py
 
-✔ Feature Engineering
-
-feature_engineering/
+Feature Engineering
 
 video_aggregator.py
 
 multimodal_fusion.py
 
-✔ ML Models
-
-feedback_engine/
+ML Models
 
 predictor.py
 
@@ -281,78 +269,74 @@ shap_analyzer.py
 
 feedback_generator.py
 
-📊 Models Included
+Included Models
 
 Located in:
 
 backend/feedback_results/models
 
 
-Includes:
+Models:
 
 human_aligned_model.joblib
 
 scaler.joblib
 
-These models output:
+Outputs:
 
-Final score
+Final Score
 
-10 dimension scores
+10 Dimension Scores
 
-SHAP explanations
+SHAP Explainability
 
-🛑 Common Issues
-❌ Video chunks not merging
+🛑 Common Issues & Fixes
+❌ Video chunk merge failure
 
-→ Install FFmpeg
-→ Add to PATH
-→ Enable correct permissions
+✔ Install FFmpeg
+✔ Add to PATH
 
-❌ No radar_chart.png
+❌ Missing radar chart
 
-→ Ensure static route is mapped
-→ Save visualizations in:
-feedback_results/<session_id>/visualizations
+✔ Ensure visualization folder exists
+✔ Configure static file route
 
-❌ CORS errors
+❌ CORS issues
 
-→ Add frontend URL to FastAPI CORS middleware
+✔ Add frontend URL to FastAPI CORS
 
-❌ Gemini API failure
+❌ Gemini API not working
 
-→ Falls back to template question generator automatically
+✔ Falls back to template-based generator
 
-🧪 Testing the Backend
-Test resume upload
+🧪 Testing Backend with curl
+Upload Resume
 curl -X POST -F "file=@resume.pdf" http://127.0.0.1:8000/upload_resume
 
-Test session creation
+Create Session
 curl -X POST http://127.0.0.1:8000/api/session/create
 
-Test feedback retrieval
+Get Feedback
 curl http://127.0.0.1:8000/api/session/<session_id>/feedback
 
 📜 Scripts Summary
 Module	Purpose
-main.py	FastAPI routing, session orchestration
-process_session.py	Full pipeline execution
-audio_extractor.py	Extract 50+ audio features
-video_extractor.py	468 landmark processing, head pose, facial metrics
-text_extractor.py	NLP features, sentiment, filler ratio
-video_aggregator.py	Frame → session aggregation
-multimodal_fusion.py	10-dimension fusion + final score
-weighted_scorer.py	Weighted scoring model
-shap_analyzer.py	SHAP explanations
+main.py	FastAPI routes & orchestration
+process_session.py	Complete pipeline driver
+audio_extractor.py	Extracts 50+ audio features
+video_extractor.py	Mediapipe landmarks + head pose
+text_extractor.py	NLP features + filler detection
+video_aggregator.py	Frame → Interview-level metrics
+multimodal_fusion.py	Feature merging
+weighted_scorer.py	Scoring logic
+shap_analyzer.py	Explainability
 feedback_generator.py	Natural language feedback
-chart_generator.py	Radar charts, bar charts
-report_builder.py	(Optional) PDF/HTML report builder
+chart_generator.py	Radar & bar charts
+report_builder.py	(Optional) Build PDF/HTML reports
 📚 Technologies Used
 Backend
 
 FastAPI
-
-Python 3.10
 
 ffmpeg-python
 
@@ -364,33 +348,31 @@ OpenCV
 
 Scikit-learn
 
-Pandas + NumPy
+Pandas / NumPy
 
 SHAP
-
-Joblib
 
 Frontend
 
 React.js
 
-Custom hooks (useCamera, useAudioRecorder, etc.)
+Custom hooks (camera, audio recorder)
 
 Axios
 
 CSS Modules
 
 🏁 Running Both Servers
-Start backend:
+Backend
 cd backend
-.venv\Scripts\activate
+.venv\Scripts\activate   # or source .venv/bin/activate
 uvicorn main:app --reload
 
-Start frontend:
+Frontend
 cd frontend
 npm start
 
 
-Frontend automatically connects to:
+Environment variable:
 
 VITE_BACKEND_URL=http://127.0.0.1:8000
