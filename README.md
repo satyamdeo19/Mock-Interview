@@ -190,7 +190,7 @@ Frontend will run at: **http://localhost:5173**
 
 ---
 ### Installation Issues: Use this venv folder
-Link:
+Link: https://drive.google.com/drive/folders/1Uh3iEYWsIgxs57mlCr9Mmo0JFX_Gag-b?usp=sharing
 ## 🚦 API Endpoints
 
 ### 🔹 Session Handling
