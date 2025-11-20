@@ -1,4 +1,5 @@
 # 🚀 AI Mock Interview Platform
+Github Link: https://github.com/satyamdeo19/Mock-Interview
 
 A multimodal AI-powered system that evaluates candidates through video, audio, text, and resume analysis to generate real-time feedback, behavioral insights, and detailed scoring reports—simulating a real HR interview panel.
 
